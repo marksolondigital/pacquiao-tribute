@@ -1,0 +1,302 @@
+/*Fonts Import*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif; 
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  background: #eee;
+}
+
+#main {
+  padding: 0px;
+}
+
+#title {
+  text-align: center; 
+}
+
+.title1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 54px;
+  margin-bottom: -18px;
+  padding-top: 30px
+}
+
+.subhead1 {
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 24px;
+}
+
+p {
+  padding: 0px 150px 0px 150px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  padding-top: 18px;
+  text-align: center;
+}
+
+/* Nav Items */
+
+nav {
+  background-color: #9c9662;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 18px;  
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #000;
+  padding: 12px;
+  font-weight: bold;
+}
+
+/*Main Stuff*/
+
+#mplogo {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Section Edits: About */
+
+#about {
+  padding-top: 30px;
+}
+
+.about1 {
+  padding-bottom: 18px;
+}
+
+/* Section Edits: Inside */
+
+.inside1 {
+  padding-bottom: 18px;
+}
+
+#inside {
+  padding-top: 30px;
+  padding-bottom: 0px
+}
+
+.box-img1 {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto; 
+  width: 30%;
+  padding-bottom: 30px;;
+}
+
+/* #container1 {
+  display: flex;
+  height: 800px;
+  flex-direction: row;
+} */
+
+/* #box1 {
+  width: 50%;
+  height: 100%;
+} */
+
+/* #box2 {
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  text-align: center;
+} */
+
+/* Section Edits: Outside */
+
+.outside1 {
+  padding-bottom: 18px;
+}
+
+#outside {
+  padding-top: 30px;
+  padding-bottom: 18px;
+}
+
+/* Section Edits: Highlights */
+
+.highlights1 {
+  padding-bottom: 18px;
+}
+
+#highlights {
+  background-color: #a6a6a6;
+  padding-top: 30px;
+  padding-bottom: 60px
+}
+
+.vid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.video-wrapper {
+  margin: 9px;
+}
+
+/* Section Edits: Social */
+
+.soc-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.social1 {
+  padding-bottom: 18px;
+}
+
+#social {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.con-soc {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0px;
+  list-style-type: none;
+}
+
+#social ul li a {
+  color: #fff;
+  padding: 18px;
+  text-decoration:none;
+}
+
+.social-ul a {
+  font-size: 36px
+}
+
+.bg-color1 {
+  background-color: black;
+  color: white;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 800px) {
+  .box-img1 {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto; 
+  width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+#mplogo {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 18px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 800px) {
+p {
+padding: 0px 30px 0px 30px;
+}
+}
+
+@media (max-width: 800px) { 
+    nav {
+        display:none;
+    }
+}
+
+/*Footer Stuff*/
+
+.footer-1 {
+  padding: 30px;
+  text-align: center;
+  font-family: 'Calibri', sans-serif; 
+  background-color: #9c9662;
+}
+
+footer {
+  padding: 30px;
+  margin-top: 0px;
+  background-color: #a6a6a6;
+}
+
+#tribute-link:link {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#tribute-link:visited {
+  color: #172852;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  color: #018b7f;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#tribute-link:active {
+  color: white;
+} 
+
+
